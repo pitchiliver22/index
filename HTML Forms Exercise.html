@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html> 
+    <head>
+        <title>HTML Forms Exercise</title>
+    <style>
+    body{
+    background-color:bisque;
+    }
+    h1 {text-align:center;color:cadetblue;}
+    </style>    
+   </head>
+    <h1>HTML FORM</h1>
+    
+        <form action="/action_page.php">
+
+            </tr><td>First name:</td><td><input type="text"></td></tr>
+            </tr><td>Middle name:</td><td><input type="text"></td></tr>
+            </tr><td>Last name:</td><td><input type="text"></td></tr>
+            <p>Select Gender</p>
+            <input type="radio" id="Male" name="Select_gender  " value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Select_gender" value="Female">
+            <label for="Female">Female</label><br>
+            <br>
+            <br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="w3review">Home Address:</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+            Home Address:
+            </textarea>
+            <p>Hobbies</p>
+            <input type="checkbox" id="Hobbies1" name="Hobbies1" value="Com_games">
+            <label for="Hobbies1"> Computer Games</label><br>
+            <input type="checkbox" id="Hobbies2" name="Hobbies2" value="Playing_ins">
+            <label for="Hobbies1"> Playing music instruments</label><br>
+            <input type="checkbox" id="Hobbies3" name="Hobbies3" value="Cooking">
+            <label for="Hobbies1"> Cooking</label><br>
+            <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Drawing">
+            <label for="Hobbies1"> Drawing</label><br>
+            <br>
+            <br>
+      
+            <label for="cars">Favorite Color:</label><br>
+            <select name="color" id="color">
+            <option value="Red">Red</option>
+            <option value="Orange">Orange</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Blue">Blue</option>
+            <option value="Indigo">Indigo</option>
+            <option value="Violet">Violet</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="w3review">Say something about yourself:</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+            Text here:
+            </textarea><br>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Clear</button>      
+        </form>
+    </body>
+    </html>
